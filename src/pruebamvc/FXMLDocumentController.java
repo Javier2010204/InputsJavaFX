@@ -25,7 +25,7 @@ public class FXMLDocumentController implements Initializable {
     
     @FXML
     private void mostrar(ActionEvent event) {
-        System.out.println("You clicked me!");
+        System.out.println("Push!!");
         String nombre = txtNombre.getText();
         String apellido = txtApellido.getText();
         label.setText(nombre + " "+apellido);
